@@ -70,7 +70,7 @@ TString GetRunName(TString filename)
     return base;
 }
 
-void alphaPeakAnalysis2(TString filename, long long maxEventsToProcess = 100000)
+void alphaPeakAnalysis(TString filename, long long maxEventsToProcess = 100000)
 {
     // Configuration
     const int nSamples = 2500;
