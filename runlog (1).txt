@@ -1,0 +1,39 @@
+# Run  P[bar]  HV[kV]  V[V]  Beam(y/n)  Comment
+# V = "-" -> not given in logbook (macro computes 75 V per kV)
+
+# --- HV scan with alpha, 4 bar (logbook entry from the scan day) ---
+4122   4   18   1350   n   TPC HV scan with alpha
+4123   4   16   1200   n   TPC HV scan with alpha
+4124   4   14   1050   n   TPC HV scan with alpha
+4125   4   12    900   n   TPC HV scan with alpha
+4126   4   10    750   n   TPC HV scan with alpha
+4127   4    8    600   n   TPC HV scan with alpha
+4128   4    6    450   n   TPC HV scan with alpha
+4129   4    4    300   n   TPC HV scan with alpha
+4130   4    2    150   n   TPC HV scan with alpha
+4131   4    1     75   n   TPC HV scan with alpha
+
+# --- other runs from the logbook table ---
+4093   4   20      -   n
+4035   4   20      -   y
+3886   4   20      -   y
+3744   4   20      -   n   just after ramping HV up
+2898  20  100      -   y   cooling of TPC installed and running
+2888  20  100      -   y   before installation of the cooling of TPC
+2440  20   95      -   y   HV at 95%
+2424  20   90      -   y   HV at 90%
+2411  20   90   6750   n   HV 90kV/6750V
+2378  16   80      -   y
+2363   8   40      -   y
+2362   8   40      -   y
+2341   8   40      -   y
+
+# --- TPC calibration test runs (P, HV, V, beam not given in logbook) ---
+4132   -    -      -   -   Test downstream TPC (before better shielding), 10mV
+4133   -    -      -   -   Test downstream TPC (before better shielding), 10mV
+4134   -    -      -   -   Test upstream TPC (with shielding, baseline width around 15adc counts), 10mV
+4135   -    -      -   -   Test upstream TPC (with shielding, baseline width around 15adc counts), 10mV
+4136   -    -      -   -   Test upstream TPC (with shielding, baseline width around 15adc counts), 20mV
+4137   -    -      -   -   Test upstream TPC (with shielding, baseline width around 15adc counts), 2.5mV?
+4138   -    -      -   -   Test upstream TPC (with shielding, baseline width around 15adc counts), 2.5mV?
+4139   -    -      -   -
